@@ -1,0 +1,95 @@
+@import url("./fonts/Dongle-Bold.ttf");
+@import url("./fonts/PassionOne-Bold.ttf");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #8e5d52;
+  color: #ecd6c4;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  align-items: center;
+  justify-content: space-around;
+}
+footer {
+  padding: 2rem;
+}
+header > img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+}
+footer > img {
+  height: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+a:link {
+  color: #ecd6c4;
+}
+a:visited {
+  color: #ecd6c4;
+}
+.contextPage {
+  margin-bottom: 2.3rem;
+}
+.contextMenu {
+  display: flex;
+  gap: 2rem;
+}
+.contextInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.OnePartPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.SecondPartPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2.3rem;
+}
+.contextMenu > a {
+  color: #ecd6c4;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-family: "Dongle", sans-serif;
+}
+.contextInfo button {
+  width: 8rem;
+  height: 3rem;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ecd6c4;
+}
+.contextInfo h1 {
+  font-family: "Passion One", cursive;
+  font-size: 4rem;
+}
+.contextInfo p {
+  font-family: "Dongle", sans-serif;
+  font-size: 2rem;
+}
+.contextInfo img {
+  float: right;
+  width: 20rem;
+}
+.SecondPartPage h2 {
+  font-family: "Passion One", cursive;
+  font-size: 3rem;
+}
+.SecondPartPage p {
+  font-family: "Dongle", sans-serif;
+  font-size: 1.3rem;
+}
